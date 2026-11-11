@@ -1,0 +1,61 @@
+/*
+Logo Color: #141ffa;
+OG Text Color: #030dc6;
+Secondary Text Color: #323cff;
+
+*/
+
+body {
+  margin: 0;
+}
+
+.companyname {
+    z-index: 1;
+  font-family: "Montserrat", sans-serif;
+  color:#ffffff;
+  font-size:4vw;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: 540;
+  letter-spacing: 0.3em;
+  line-height: 1.8em;
+  
+ 
+}
+
+.navbar {
+  z-index: 3;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: #1b1b1b;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navlink {
+  color: #dddddd;
+  text-decoration: none;
+  margin-right: 3.8vw;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 1.3vw;
+  transition: color 0.3s ease;
+}
+
+.subtext {
+  color:#eebe00;
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+
+}
