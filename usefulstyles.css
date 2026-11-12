@@ -77,5 +77,21 @@ body {
   font-weight: 200;
 }
 
+footer {
+  background-color: #0a0a0a;
+  color: #dddddd;
+  text-align: center;
+  padding: 1em;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2vw;
+}
 
+footer-container {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
 
