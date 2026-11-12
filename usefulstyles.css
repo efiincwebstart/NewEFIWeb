@@ -61,15 +61,20 @@ body {
 }
 
 .headertxt {
-  color:rgb(5, 5, 5);
+  color:rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
   font-size: 4vw;
+  font-weight: 400;
 
 }
 
-.normtext {
+.normtxt {
   color:rgb(15, 13, 20);
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5vw;
+  font-optical-sizing: auto;
+  font-size: 2vw;
+  font-weight: 200;
 }
 
 

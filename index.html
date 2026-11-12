@@ -6,7 +6,7 @@
 <title>Home</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Italianno&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,513;1,513&family=Nunito:ital,wght@0,650;1,650&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Italianno&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,200..900;1,200..900&family=Nunito:ital,wght@0,650;1,650&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="usefulstyles.css">
 <style> 
 
@@ -21,7 +21,7 @@
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent 80%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), transparent 83%);
 }
 
 .firstImg {
@@ -61,8 +61,26 @@
   animation-delay: 1.8s;
 }
 
+.gold {
+  opacity:0;
+  animation: anyAppear 1s forwards;
+  animation-delay: 3.55s;
+}
+
+.logApp {
+  opacity:0;
+  animation: anyAppear 3s forwards;
+  animation-delay: 0s;
+}
+
+
+
 @keyframes wordMove {
   to {transform: translateX(var(--x)); opacity: 1;}
+}
+
+@keyframes anyAppear {
+  to {opacity: 1;}
 }
 
 </style>
@@ -74,6 +92,7 @@
 <!-- Navigation Bar -->
 
 <div class ="navbar">
+  <img src="EfiLogoWhite.png" style="width:4vw;height:auto;margin-right:13.8vw" alt="EFI Logo"/>
 <a href="index.html" class="navlink">Home</a>
 <a href="about.html" class="navlink">About EFI</a>
 <a href="services.html" class="navlink">Our Services</a>
@@ -92,7 +111,7 @@
   <img class="firstImg" src="NewHEROimg.jpeg" alt="Furniture showroom"/>
   <div class="hero-content">
     <!-- Logo and Name -->
-    <img src="WhiteCenterAltLogoEFI.png" style="float:left;width:20%;height:auto;margin-left:5vw;margin-top:14em; z-index: 1;"/>
+    <img class="logApp" src="WhiteCenterAltLogoEFI.png" style="float:left;width:20%;height:auto;margin-left:5vw;margin-top:11em; z-index: 1;"/>
     <p class="companyname" style="margin-top:2.5em">
       <span class="word elite">ELITE</span><br>
       <span class="word furniture">FURNITURE</span><br>
@@ -100,15 +119,16 @@
     </p>
 
     <div style="margin-left:33.5%">
-      <div class="subtext">Quality is our Signature</div>
-      <hr width="31%" style="border: 1px solid #eebe00; margin-top: 0em; margin-left: 0;"/>
+      <div class="subtext gold">Quality is our Signature</div>
+      <hr class="gold" width="31%" style="border: 1px solid #eebe00; margin-top: 0em; margin-left: 0;"/>
     </div>  
   </div>
 </section>
   <p class="headertxt">Request a Quote!</p>
   <p class="normtxt"> Test 1</p>
-  <p class="normtxt"> Test 2</p>
 
   
+
 </body>
 </html>
+
