@@ -80,18 +80,45 @@ body {
 footer {
   background-color: #0a0a0a;
   color: #dddddd;
-  text-align: center;
-  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  box-sizing: border-box;
+  height: 20em;
+  padding: 0 10vw;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 1.2vw;
+  line-height: 1.2;
 }
 
-footer-container {
+.footer-container {
   position: relative;
   bottom: 0;
   width: 100%;
+}
+
+.footer-top {
+  height: 6em;
+  background-color: #181818;
+  font-size: 1.2vw;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer p:first-child {
+  text-align: left;
+}
+
+footer p:nth-child(2) {
+  text-align: center;
+}
+
+footer p:last-child {
+  text-align: right;
 }
 
