@@ -60,6 +60,16 @@ body {
 
 }
 
+.subtexttwo {
+  color:#eebe00;
+  font-family: "Italianno", cursive;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5vw;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+
+}
+
 .headertxt {
   color:rgb(0, 0, 0);
   font-family: "Montserrat", sans-serif;
@@ -78,7 +88,7 @@ body {
 }
 
 footer {
-  background-color: #0a0a0a;
+  background-color: #171717;
   color: #dddddd;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -88,7 +98,7 @@ footer {
   padding: 0 10vw;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   font-size: 1.2vw;
   line-height: 1.2;
@@ -100,10 +110,13 @@ footer {
   width: 100%;
 }
 
-.footer-top {
-  height: 6em;
-  background-color: #181818;
+.footer-bottom {
+  background-color: #0a0a0a;
+  color: #dddddd;
+  display: flex;
+  align-items: center;
   font-size: 1.2vw;
+  height: 6em;
 }
 
 footer p {
